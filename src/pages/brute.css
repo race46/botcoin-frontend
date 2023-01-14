@@ -1,0 +1,8 @@
+img {
+    height: min(calc(100vw - 10px), calc(100vh - 10px));
+    width: min(calc(100vw - 5px), calc(100vh - 5px));
+    margin-left: 0;
+    margin-top: calc((100vh - min(calc(100vw - 5px), calc(100vh - 5px))) / 2);
+}
+
+
